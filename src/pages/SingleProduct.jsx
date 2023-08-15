@@ -26,15 +26,16 @@ ${mobile({ height: "40vh"})};
 const InfoContainer = styled.div `
 flex:1;
 padding:0px 50px;
-${mobile({ padding: "10px"})}
+{mobile({ padding: "10px"})}
 `
  ;
 const Name = styled.h1 `
-font-weight:200;
+font-weight:600;
 ` 
 ;
 const Desc = styled.p `
 margin:20px 0px;
+font-weight:400;
 ` ;
 const Price = styled.span `
 font-weight:100;
@@ -110,15 +111,15 @@ text-decoration:none;
 const SingleProduct = () => {
   return (
     <Container >
-        <Navbar />
-        <Announcement/>
+       <Announcement/>
+         <Navbar />
         <Wrapper>
             <ImgContainer>
             <Image src = "https://images.unsplash.com/photo-1637069585336-827b298fe84a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRlbmltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
             </ImgContainer>
             <InfoContainer>
                 <Name>DENIM</Name>
-                <Desc>awesome product to be attractive and beautiful</Desc>
+                <Desc>Beautiful denims for a beautiful day</Desc>
                 <Price>5000rs</Price>
                 <FilterContainer>
                     <Filter>

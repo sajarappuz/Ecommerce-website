@@ -8,16 +8,16 @@ display:flex;
 align-items:center;
 justify-content:center;
 font-size:14px;
-font-weight:500;
+font-weight:800;
 
-;`
+`;
 
 const Announcement = () => {
   return (
     <Container>
 
 
-        Super Deal....! Buy One Get One.
+        Amazing Deals...Shop Now...Grab More...!!
 
 
 

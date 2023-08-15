@@ -6,6 +6,8 @@ import { mobile } from "../Responsive"
 
 const Container = styled.div `
 display:flex;
+background-color:gray;
+color:white;
 ${mobile({ flexDirection: "column"})};
 `;
 const Left = styled.div `
@@ -13,11 +15,13 @@ flex:1;
 display:flex;
 flex-direction:column;
 padding:20px;
+margin-left:30px;
 `;
 
 const Logo = styled.h1 ``;
 const Desc = styled.p `
 margin:20px 0px;
+font-weight:700;
 `;
 const SocialContainer = styled.div `
 display:flex;
@@ -52,8 +56,9 @@ const ListItem = styled.a`
 padding:10px;
 cursor:pointer;
 margin:10px;
-text-decoration:none
-
+text-decoration:none;
+color:white;
+font-weight:600;
 `
 ;
 
@@ -68,6 +73,7 @@ const ContactItem = styled.div `
 padding:20px;
 display:flex;
 align-items:center;
+font-weight:500;
 `;
 
 
@@ -78,22 +84,22 @@ const Footer = () => {
        <Left>
         <Logo>WIZBUY</Logo>
         <Desc>
-            buy great products..!!
+            Buy products of your Choice
         </Desc>
         <SocialContainer>
             <SocialIcon color="3B5999">
                 <Facebook/>
             </SocialIcon>
             <SocialIcon color="#A020F0">
-                <Instagram />
+                <Instagram/>
             </SocialIcon>
             <SocialIcon color="55ACEE">
                 <Twitter/>
             </SocialIcon>
         </SocialContainer>
        </Left>
-       <Center>a
-        <Title>Useful Links</Title>
+       <Center>
+        <Title> Links</Title>
 
           <List>
             <ListItem as="a" href="/">

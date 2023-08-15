@@ -38,6 +38,7 @@ align-items:center;
 border: 0.5px solid blue;
 padding:5px;
 margin-left:10px;
+border-radius:10px;
 `
 ;
 
@@ -68,6 +69,7 @@ font-size:14px;
 cursor:pointer;
 margin-left:25px;
 text-decoration: none;
+color:gray;
 ${mobile({ fontSize: "12px", marginLeft:"10px"})};
 `;
 const Navbar = () => {

@@ -49,10 +49,10 @@ const Newsletter = () => {
   return(
     <Container>
        <Title>Newsletter</Title>
-       <Description>simply awesome</Description>
+       <Description>Convey Your Thoughts with Us</Description>
         <InputContainer>
            
-           <Input  placeholder="your email"/>
+           <Input  placeholder="message..."/>
            <Button>
                 <Send/>
            </Button>
