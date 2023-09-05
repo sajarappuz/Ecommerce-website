@@ -1,7 +1,7 @@
 # technologies used
-Reactjs
-react -router
-react-hooks
+Reactjs,
+react -router,
+react-hooks,
 styled components
 
 
